@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Project</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <!--custom css-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="body">
+    <!--Navbar Section Start-->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#show-case"><i class="fa-brands fa-apple"></i></a>
+            </div>
+            <div class="navbar-link">
+                <ul class="navbar-ul">
+                    <li class="navbar-items">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="#product">Product</a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar Section End-->
+    <!--Show case Section Start-->
+    <section id="show-case" class="show-case">
+        <div class="container-show">
+            <div class="content">
+                <h1>iphone 13 Pro Max</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <button class="btn" >all product</button>
+            </div>
+            <div class="image">
+                <img class="imgg" src="./img/0.png" alt="">
+            </div>
+        </div>
+        <div class="colors">
+            <ul class="colors-ul">
+                <li class="colors-li">
+                    <img onclick="change(this.src); changeColor('#000')" src="./img/0.png" alt="">
+                </li>
+                <li class="colors-li">
+                    <img onclick="change(this.src); changeColor('#247ec8')" src="./img/1.png" alt="">
+                </li>
+                <li class="colors-li">
+                    <img onclick="change(this.src); changeColor('#1e1e1e')" src="./img/2.png" alt="">
+                </li>
+                <li class="colors-li">
+                    <img onclick="change(this.src); changeColor('#c79b53')" src="./img/3.png" alt="">
+                </li>
+                <li class="colors-li">
+                    <img onclick="change(this.src); changeColor('#c82525')" src="./img/4.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--Show case Section End-->
+    <!--About Section Start-->
+    <section id="about" class="about">
+        <div class="container-about">
+            <div class="about-img">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="content-about">
+                <h1>who we are?</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero eos veritatis consequatur accusamus nobis cupiditate in ea aperiam eius nesciunt ratione veniam necessitatibus doloremque illum molestias, quisquam voluptates quas vero.
+                Nemo facilis facere enim est consequuntur explicabo ab maiores! Asperiores vel sequi voluptas minus magni, nemo soluta animi ducimus deserunt repellat, vitae unde optio nisi consequuntur, amet dolorum accusantium neque!
+                Consequatur reprehenderit voluptas odit enim fuga voluptatum nobis? Animi possimus exercitationem illum minus deleniti beatae maiores modi commodi est, corporis asperiores optio inventore ipsum voluptatibus consectetur quas natus doloremque voluptate!</p>
+            </div>
+        </div>
+    </section>
+    <!--About Section End-->
+    <!--Product Section Start-->
+    <section id="product" class="product">
+        <div class="container">
+            <div class="product-slider">
+                <img name="slide">
+            </div>
+            <div class="product-content">
+                <h1>iphone 13 Pro Max</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum beatae tempore nostrum!</p>
+                <button class="btn"> 2000 $</button>
+            </div>
+        </div>
+    </section>
+    <!--Product Section End-->
+    <!--Contact Us  Section Start-->
+    <section class="contact-us" id="contact-us">
+        <div class="container">
+            <form class="contact-form" action="_set">
+                <label for="subject"> Subject : </label>
+                <input type="text" placeholder="Enter Your Subject">
+                <label for="e-mail"> E_mail : </label>
+                <input type="email" placeholder="abcdf@Gmail.com">
+                <label for=""> Message : </label>
+                <textarea name="" id="" cols="30" rows="20" placeholder="Enter Your Message"></textarea>
+            </form>
+        </div>
+    </section>
+    <!--Contact Us  Section End-->
+    <!--js custom-->
+    <script src="./js/main.js"></script>
+</body>
+</html>

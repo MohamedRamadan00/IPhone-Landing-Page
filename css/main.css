@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik Moonrocks', cursive;
+    background-color: black;
+}
+/*Navbar Style*/
+.navbar{
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 5px;
+    position: fixed;
+    transition: 1s ease-in-out;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.nav-brand i {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+.navbar-link .navbar-ul .navbar-items{
+    display: inline-block;
+    margin-left: 30px;
+}
+.navbar-link .navbar-ul .navbar-items a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 1s ease-in-out;
+}
+/*show case style*/
+.show-case{
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.container-show{
+    text-transform: capitalize;
+    text-align: start;
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.show-case .container-show .content{
+    width: 50%;
+    margin-top: 100px;
+}
+.show-case .container-show .content h1{
+    font-size: 3rem;
+}
+.show-case .container-show .content p{
+    font-size: 1.3rem;
+}
+.show-case .container-show .image img{
+    left: 70%;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.show-case .container-show .content .btn,
+.product .container .product-content .btn{
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 30px;
+    border-style: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.product .container .product-content .btn:hover,
+.show-case .container-show .content .btn:hover{
+    background-color: green;
+    transition: 1s ease-in-out;
+}
+.show-case .colors{
+    text-align: center;
+}
+.show-case .colors .colors-ul{
+    list-style: none;
+    margin-top: 200px;
+}
+.show-case .colors .colors-ul .colors-li{
+    display: inline-block;
+}
+.show-case .colors .colors-ul .colors-li img{
+    width: 100px;
+}
+.show-case .colors .colors-ul .colors-li img:hover{
+    width: 100px;
+    transform: scale(1.6);
+    transition: 1s ease-in-out;
+}
+/*about style*/
+.about{
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.about{
+    color: white;
+    width: 80%;
+    text-transform: capitalize;
+    text-align: start;
+    justify-content: space-between;
+    display: flex;
+    padding: 100px;
+}
+.about .container-about{
+    color: white;
+    width: 100%;
+    text-transform: capitalize;
+    text-align: start;
+    justify-content: space-between;
+    display: flex;
+}
+.about .container-about .about-img{
+    margin-top: 110px;
+}
+.about .container-about .about-img img{
+    width: 300px;
+}
+.about .container-about .content-about h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.about .container-about .content-about p{
+    font-size: 1.4rem;
+    width: 100%;
+    margin-left: 100px;
+}
+/*product style*/
+.product{
+    padding-top: 200px;
+    color: white;
+    width: 80%;
+    text-transform: capitalize;
+    text-align: start;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.product .container{
+display: inline-block;
+    display: flex;
+    background-color: rgb(66, 66, 66);
+    padding: 100px;
+    border-radius: 30px;
+}
+.product .container .product-slider img{
+    width: 100%;
+}
+.product .container .product-content{
+    margin-left: 100px;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+.product .container .product-content h1{
+    font-size: 2rem;
+}
+.product .container .product-content p{
+    font-size: 2rem;
+}
+/*contact us*/
+.contact-us{
+    font-size: 3rem;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.contact-us .container .contact-form{
+    width: 96%;
+    margin-left: 100px;
+    margin: 10px;
+}
+.contact-us .container .contact-form input{
+    padding: 20px 500px;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    outline: 2px solid rgb(0, 0, 0);
+}
+.contact-us .container .contact-form textarea{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    outline: 1px solid rgb(0, 0, 0);
+    width: 95%;
+    text-align: center;
+}
